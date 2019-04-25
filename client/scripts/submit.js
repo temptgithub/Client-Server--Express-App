@@ -14,7 +14,7 @@ console.log( "jquery is loaded after document ready from index.html");
         //$.post("location","data",callback function)
         //$.post("http://localhost:3000,"retrieveList","hello server",function(){
         //  console.log("the server  has responded")   // below using es6 notation
-        //making a post request
+        //making a post request with name of numberSaver
           $.post("http://localhost:3000/numberSaver",dataToSendToServer, (data) => {
             console.log("the number was sent to the server");
             //console.log("the server sent the following:", data);
